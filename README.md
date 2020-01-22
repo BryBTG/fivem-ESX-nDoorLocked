@@ -29,6 +29,8 @@ Just Drag and drop the file into your resources and add it into ur server.cfg st
 **Add new Door**
 To add a new door all you need to do is go on the config file
 then add a new location, take the example of what's done by replacing the location and then the name of your door.
+To modify the secret code simply go at this line on config.lua file
+authorizedCodes = 5555, <-- and replace the 5555 by what you want.
 
 
 [FR]
@@ -40,6 +42,8 @@ Il suffit de glisser-déposer le fichier dans vos ressources puis d'ajouté a vo
 **Ajouter une nouvelle Porte**
 Pour ajouter une nouvelle porte, il suffit d’utiliser le fichier config
 puis ajoutez un nouvel emplacement, prenez exemple sur ce qui y'a de fait en remplacant la location puis le nom de votre porte.
+Pour modifier le code secret, modifier simplement la ligne suivant qui ce trouve sur votre fichier config.lua : 
+authorizedCodes = 5555, <-- par ce que vous voulez comme chiffre. 
 
 **SCREEN**
 ![map](https://cdn.discordapp.com/attachments/554479498721099787/669552122270056449/Annotation_2020-01-22_154054.jpg)
